@@ -13,12 +13,13 @@
 .container{
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .3fr 1.5fr 1.2fr .8fr;
-    grid-template-areas: 'header header header header'
-                         'sidebar main main main'
-                         'sidebar content1 content2 content3'
-                         'footer footer footer footer';
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: .3fr 1.5fr 1.2fr 1.2fr .8fr;
+    grid-template-areas: 'header header'
+                         'main main'
+                         'content1 content2'
+                         'contact contact'
+                         'footer footer ';
     text-align: center;
     color: var(--white);
 }
@@ -80,8 +81,9 @@ main{
     
 }
 
-#side-bar{
-    grid-area: sidebar;
+#contact-me{
+    grid-area: contact; 
+
    
 }
 
@@ -94,10 +96,6 @@ main{
     
 }
 
-#content-3{
-    grid-area: content3;
-    
-}
 
 footer{
     grid-area: footer;
