@@ -1,7 +1,13 @@
-*{
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+    background-color: #24252a;
+}
+
+:root{
+    --white: #edf0ed;
+
 }
 
 .container{
@@ -9,45 +15,90 @@
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: .3fr 1.5fr 1.2fr .8fr;
-    grid-template-areas: 'nav nav nav nav'
+    grid-template-areas: 'header header header header'
                          'sidebar main main main'
                          'sidebar content1 content2 content3'
                          'footer footer footer footer';
-
+    text-align: center;
+    color: var(--white);
 }
 
-nav{
-    grid-area: nav;
-    color: skyblue;
+li , a , button {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0ed;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    grid-area: header;
+}
+
+.logo{
+    cursor: pointer;
+    color: #edf0ed;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links , a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links , a:hover {
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(0, 136, 169, 1);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, .8);
+
 }
 
 main{
     grid-area: main;
-    background-color: lightblue;
+    
 }
 
 #side-bar{
     grid-area: sidebar;
-    background-color: green;
+   
 }
 
 #content-1{
     grid-area: content1;
-    background-color: light green;
+    
 }
 #content-2{
     grid-area: content2;
-    background-color: yellow;
+    
 }
 
 #content-3{
     grid-area: content3;
-    background-color: aquamarine;
+    
 }
 
 footer{
     grid-area: footer;
-    background-color: greenyellow;
-    
 }
-
