@@ -102,3 +102,10 @@ main{
 footer{
     grid-area: footer;
 }
+
+
+img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
