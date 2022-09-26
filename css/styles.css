@@ -84,6 +84,17 @@ main{
 
 aside{
     grid-area: aside;
+    padding-top: 100px;
+
+}
+
+aside h2{
+    font-size: 35px;
+
+}
+
+aside h3{
+    font-size: 25px;
 
 }
 
@@ -99,6 +110,7 @@ aside{
 
 #content-1:hover{
     transform: scale(1.02);
+    cursor: pointer;
 }
 
 
@@ -106,6 +118,7 @@ aside{
     grid-area: content2;
     padding: 10px;
     margin: 5px; 
+    cursor: pointer;
 }
 
 #content-2:hover{
@@ -148,9 +161,13 @@ textarea{
     color: black;
 }
 
-
-
 main img{
-    padding-left: 42%;
+    align-content: center;
+    padding: 30px;
+    border-radius: 50%;
  } 
   
+span{
+    color: rgba(0, 136, 169, 1);
+    font-weight: bold;
+}
