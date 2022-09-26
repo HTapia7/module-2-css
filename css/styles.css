@@ -128,8 +128,13 @@ aside h3{
 footer{
     grid-area: footer;
     background-color: var(--grey);
+    padding: 25px;
 }
 
+footer p {
+    color: var(--white);
+
+}
 img {
     object-fit: cover;
     width: 100%;
