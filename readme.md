@@ -1,5 +1,4 @@
-
-![](https://file%2B.vscode-resource.vscode-cdn.net/Users/soliditize/Desktop/module2/images/websiteScreenshot.png?version%3D1664414690581)
+<img src="images/websiteScreenshot.png" alt="Alt text" title="Optional title">
 
 
 
