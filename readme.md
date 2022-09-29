@@ -1,4 +1,11 @@
+
+![](https://file%2B.vscode-resource.vscode-cdn.net/Users/soliditize/Desktop/module2/images/websiteScreenshot.png?version%3D1664414690581)
+
+
+
 # Module 2 Challenge 
+
+https://htapia7.github.io/module-2-css/
 
 
 ## As a new developer, I want to create a portfolio page for my future Employer
